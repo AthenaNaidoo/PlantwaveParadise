@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/PlantwaveParadise/static/css/main.22484915.css",
+    "main.js": "/PlantwaveParadise/static/js/main.6f427832.js",
+    "static/js/453.98727363.chunk.js": "/PlantwaveParadise/static/js/453.98727363.chunk.js",
+    "static/media/MainWireframe.png": "/PlantwaveParadise/static/media/MainWireframe.e97795981ef5ec857c2e.png",
+    "static/media/HexBig.png": "/PlantwaveParadise/static/media/HexBig.c6fbf771844549f62874.png",
+    "static/media/glossy-glass.jpg": "/PlantwaveParadise/static/media/glossy-glass.129205bbd7535f234c3d.jpg",
+    "static/media/DesignWireI.png": "/PlantwaveParadise/static/media/DesignWireI.8ba63903b31b9c1e3636.png",
+    "static/media/DesignWireR.png": "/PlantwaveParadise/static/media/DesignWireR.ac845d163c4394d9513b.png",
+    "static/media/BlogWire.png": "/PlantwaveParadise/static/media/BlogWire.3879e2eaa99bcfdf8507.png",
+    "static/media/TestPic.jpg": "/PlantwaveParadise/static/media/TestPic.9124c347af58d64b93f9.jpg",
+    "static/media/Orchid4.png": "/PlantwaveParadise/static/media/Orchid4.160b14b997ed9f6b9067.png",
+    "static/media/PalletHex.png": "/PlantwaveParadise/static/media/PalletHex.0e3a1acac451d09ff654.png",
+    "static/media/ArtWireP.png": "/PlantwaveParadise/static/media/ArtWireP.65f9da40b5a61703f7db.png",
+    "static/media/ArtWire.png": "/PlantwaveParadise/static/media/ArtWire.e8785765e96bd166dfd7.png",
+    "static/media/Screenshot 2024-06-04 194112.png": "/PlantwaveParadise/static/media/Screenshot 2024-06-04 194112.96e22cab640947252a4f.png",
+    "static/media/noise.gif": "/PlantwaveParadise/static/media/noise.12bbda999773ad5bd7bb.gif",
+    "static/media/GridWBG.png": "/PlantwaveParadise/static/media/GridWBG.9574b916bc83136a5fbf.png",
+    "static/media/bat.png": "/PlantwaveParadise/static/media/bat.572bc0187f724476d915.png",
+    "static/media/Waterfall.gif": "/PlantwaveParadise/static/media/Waterfall.4ef3a6b7d25bde8a4da2.gif",
+    "static/media/Floppy.png": "/PlantwaveParadise/static/media/Floppy.28df8aad69aeaab3873a.png",
+    "static/media/Jacquard12-Regular.ttf": "/PlantwaveParadise/static/media/Jacquard12-Regular.3d111ba887a79b61412a.ttf",
+    "static/media/Orchid5.png": "/PlantwaveParadise/static/media/Orchid5.51cdc844400e7d434503.png",
+    "static/media/File.png": "/PlantwaveParadise/static/media/File.824d544467fcc1c3026e.png",
+    "static/media/BlackSword.png": "/PlantwaveParadise/static/media/BlackSword.4402e64ab8460706d0f6.png",
+    "static/media/Inspo2.jpg": "/PlantwaveParadise/static/media/Inspo2.a7b14e45c3e48cd606df.jpg",
+    "static/media/Inspo.jpg": "/PlantwaveParadise/static/media/Inspo.7065e896469da6af7e48.jpg",
+    "static/media/ChakraPetch-Light.ttf": "/PlantwaveParadise/static/media/ChakraPetch-Light.8dabc1fc6d290dfe2e85.ttf",
+    "static/media/sakuraPetals.gif": "/PlantwaveParadise/static/media/sakuraPetals.1aa7b640bec0a3711c9e.gif",
+    "static/media/ChicagoFLF.ttf": "/PlantwaveParadise/static/media/ChicagoFLF.cacc40068a3f040ad27a.ttf",
+    "static/media/LotusT.png": "/PlantwaveParadise/static/media/LotusT.0297a3bdd55c4b0c2c84.png",
+    "static/media/Inspo1.jpg": "/PlantwaveParadise/static/media/Inspo1.0dd46b349313bd863b26.jpg",
+    "index.html": "/PlantwaveParadise/index.html",
+    "main.22484915.css.map": "/PlantwaveParadise/static/css/main.22484915.css.map",
+    "main.6f427832.js.map": "/PlantwaveParadise/static/js/main.6f427832.js.map",
+    "453.98727363.chunk.js.map": "/PlantwaveParadise/static/js/453.98727363.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.22484915.css",
+    "static/js/main.6f427832.js"
+  ]
+}
