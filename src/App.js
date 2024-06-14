@@ -15,7 +15,7 @@ function App() {
      <BrowserRouter>
      <Navbar/>
      <Routes>
-      <Route exact path="/IMwebApp" element={<Main/>}/>
+      <Route exact path="/PlantwaveParadise" element={<Main/>}/>
       <Route path="/art" element={<Art/>}/>
       <Route path="/blog" element={<Blog/>}/>
       <Route path="/design" element={<Design/>}/>

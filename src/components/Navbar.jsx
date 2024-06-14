@@ -27,7 +27,7 @@ export function Navbar() {
     return(
         <header className={`header ${scrolled ? 'scrolled' : ''}`}>
             <nav className='nav-container'>
-                <NavLink to="/IMwebApp" className={`nav-logo ${scrolled ? 'scrolled' : ''}`}>
+                <NavLink to="/PlantwaveParadise" className={`nav-logo ${scrolled ? 'scrolled' : ''}`}>
                 <GiPolarStar className='star' />               
                 </NavLink>
                 <div className='nav-menu'>
