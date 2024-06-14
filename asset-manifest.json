@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PlantwaveParadise/static/css/main.22484915.css",
-    "main.js": "/PlantwaveParadise/static/js/main.02b455d9.js",
+    "main.js": "/PlantwaveParadise/static/js/main.bf24b959.js",
     "static/js/453.98727363.chunk.js": "/PlantwaveParadise/static/js/453.98727363.chunk.js",
     "static/media/MainWireframe.png": "/PlantwaveParadise/static/media/MainWireframe.e97795981ef5ec857c2e.png",
     "static/media/HexBig.png": "/PlantwaveParadise/static/media/HexBig.c6fbf771844549f62874.png",
@@ -33,11 +33,11 @@
     "static/media/Inspo1.jpg": "/PlantwaveParadise/static/media/Inspo1.0dd46b349313bd863b26.jpg",
     "index.html": "/PlantwaveParadise/index.html",
     "main.22484915.css.map": "/PlantwaveParadise/static/css/main.22484915.css.map",
-    "main.02b455d9.js.map": "/PlantwaveParadise/static/js/main.02b455d9.js.map",
+    "main.bf24b959.js.map": "/PlantwaveParadise/static/js/main.bf24b959.js.map",
     "453.98727363.chunk.js.map": "/PlantwaveParadise/static/js/453.98727363.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.22484915.css",
-    "static/js/main.02b455d9.js"
+    "static/js/main.bf24b959.js"
   ]
 }
