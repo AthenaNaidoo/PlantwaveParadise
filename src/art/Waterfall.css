@@ -1,0 +1,298 @@
+/*styling for all art objects*/
+@font-face {
+    font-family: 'Chicago';
+    src: local('Chicago'), url('../assests/ChicagoFLF.ttf') format('truetype');
+  }
+  
+  /*Waterfall styling*/
+  .BackgroundContainer {
+      background-color:#cccccc;
+      float: right;
+      margin-right: 20px;
+      width: 400px;
+      height: 550px;
+      border: 2px solid #999999;
+  }
+  
+  .GifBackground {
+  margin-top: 32px;
+  border: 3px solid #000000;
+  }
+  
+  
+  .TextContainer {
+      position: absolute;
+      top: 80px;
+      margin-top: 70px;
+      padding-top: 5px;
+      width: 400px;
+      height: 460px;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+  
+  }
+  
+  .ScrollingText {
+      display: flex;
+      padding-top: 20px;
+      padding-left: 30px;
+      width: 335px;
+      height: 1000px;
+      position: absolute;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      animation: scrollUp 30s linear infinite;
+  }
+  
+  .TextLine {
+      font-size: 1rem;
+      color: white;
+      margin: 20px 0;
+  }
+  
+  @media screen and (max-width: 768px){
+      .BackgroundContainer {
+          background-color:#cccccc;
+          margin-right: 10px;
+          float: right;
+          width: 300px;
+          height: 450px;
+          border: 2px solid #999999;
+      }
+      
+      .GifBackground {
+          margin-top: 32px;
+          width: 250px;
+          height: 375px;
+          border: 3px solid #000000;
+      }
+      
+      
+      .TextContainer {
+          position: absolute;
+          margin-top: 65px;
+          margin-left: 22px;
+          width: 250px;
+          height: 345px;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          overflow: hidden;
+          
+      }
+      
+      .ScrollingText {
+          display: flex;
+          padding-bottom: 10px;
+          width: 250px;
+          height: 1000px;
+          position: absolute;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          animation: scrollUp 30s linear infinite;
+          
+          
+      }
+      
+      .TextLine {
+          font-size: 0.7rem;
+          color: white;
+          text-shadow: #000000;
+          margin: 20px 0;
+      }
+  }
+  
+  @keyframes scrollUp {
+      0% {
+          transform: translateY(100%);
+      }
+      100% {
+          transform: translateY(-100%);
+      }
+  }
+  
+  .CRT{
+      font-family: monospace; 
+      font-size: 1rem; 
+      color: lime; 
+      text-shadow: 0 0 4px lime; 
+      filter: blur(0.05rem); 
+      transform: scale(5); 
+      transform-origin: top left; 
+  }
+  
+  /*card*/
+  .card {
+      width: 200px; 
+      height: 300px; 
+      perspective: 1000px; 
+    }
+    
+    .card-face {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden; 
+    }
+    
+    .card-front {
+      transform: rotateY(0deg); 
+      transition: transform 0.5s ease; 
+    }
+    
+    .card-back {
+      transform: rotateY(180deg); 
+      transition: transform 0.5s ease; 
+    }
+    
+    .flipped .card-front {
+      transform: rotateY(-180deg); 
+    }
+    
+    .flipped .card-back {
+      transform: rotateY(0deg); 
+    }
+  
+  /*Translate styling*/
+    .translation {
+      position: relative;
+      display: inline-block;
+    }
+    
+    .english {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      display: none;
+      padding: 5px;
+      background-color: white;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    
+    .translation:hover .english {
+      display: block;
+    }
+  
+    /*Fishtank*/
+    .fish-tank {
+      position: relative;
+      width: 500px;
+      height: 250px;
+      background-color: #2e69a4;
+      overflow: hidden;
+  }
+  
+  .fish {
+      position: absolute;
+      white-space: nowrap;
+      font-size: 2em;
+      font-weight: bold;
+      color: #c16102;
+      animation: swim linear infinite;
+  }
+  
+  @keyframes swim {
+      0% {
+          transform: translateX(-100%);
+      }
+      100% {
+          transform: translateX(100vw);
+      }
+  }
+  
+  /*heart button test*/
+  
+  .heart-container {
+      position: relative;
+      width: 200px;
+      height: 200px;
+      cursor: pointer;
+      display: inline-block;
+      margin-top: 2rem;
+      
+      
+      border: 2px solid black;
+    }
+    
+    .heart {
+      width: 200px;
+      height: 150px;
+    }
+    
+    .sword {
+      position: absolute;
+      top: -100px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 200px; 
+      transition: top 0.2s ease-in-out, opacity 0.2s ease-in-out;
+      opacity: 0;
+    }
+    .heart-container:hover{
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    }
+  
+  
+    .heart-container:hover .sword {
+      top: 0;
+      opacity: 1;
+      transform: translateX(-50%) rotate(315deg);
+    }
+  
+    /*Magazine*/
+    .book {
+      width: 800px; 
+      height: 500px; 
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      overflow: hidden;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .pages {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .page {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+    
+    .controls {
+      position: absolute;
+      bottom: 20px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    .controls button {
+      padding: 5px 10px;
+      font-size: 1rem;
+      cursor: pointer;
+      background-color: #000000;
+      color: #fff;
+    }
+    
+    .controls button:disabled {
+      background-color: #ccc;
+      cursor: not-allowed;
+    }

@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'Chicago';
+    src: local('Chicago'), url('../assests/ChicagoFLF.ttf') format('truetype');
+  }
+
+.Art-container{
+    background-image: url('../assests/glossy-glass.jpg');
+    background-attachment: fixed;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.Desktop{
+    margin: 0 20px 20px 20px;
+    border: 5px solid black;
+    box-shadow: 0 0 5px black;
+}
+
+
+
+.Fish-Tank{
+    position: relative;
+    width: 80%;
+    margin: auto;
+    height: 200px;
+    border: 2px solid blue;
+    background-color: lightblue;
+    overflow: hidden;
+  }
+  
+  
+  
+  /*animations*/
+  /*VHS*/
+  .vhs-wrapper {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+  }
+  
+  .vhs-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    filter: contrast(1.2) brightness(0.9) saturate(1.2);
+    transform: scale(1.02);
+  }
+  
+  .vhs-lines {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: repeating-linear-gradient(
+        0deg,
+        rgba(255, 255, 255, 0.1) 0,
+        rgba(255, 255, 255, 0.1) 1px,
+        transparent 1px,
+        transparent 2px
+    );
+    pointer-events: none;
+    mix-blend-mode: overlay;
+    animation: flicker 0.15s infinite;
+  }
+  
+  @keyframes flicker {
+    0% { opacity: 0.8; }
+    50% { opacity: 1; }
+    100% { opacity: 0.8; }
+  }
+  
+  .vhs-noise {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../assests/noise.gif');
+    pointer-events: none;
+    mix-blend-mode: overlay;
+    opacity: 0.3;
+    animation: noise 0.2s steps(10) infinite;
+  }
+  
+  @keyframes noise {
+    0% { transform: translate(0, 0); }
+    100% { transform: translate(100%, 100%); }
+  }
+  
+  /*Synth*/
+  .synth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin: 20px;
+  }
+  
+  .synth button {
+    width: 60px;
+    height: 60px;
+    font-size: 18px;
+    border: none;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    transition: background-color 0.1s ease;
+  }
+  
+  .synth button.active {
+    background-color: #ff96c0;
+  }
+  
+  
+  /*Realm Styling */
+  .test{
+    padding: 20px;
+    border: 20px solid transparent;
+    border-image: url('../assests/bat.png') 30 round;
+    text-align: center;
+    background-color: #fff;
+  }

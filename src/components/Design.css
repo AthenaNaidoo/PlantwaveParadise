@@ -1,0 +1,100 @@
+@font-face {
+  font-family: 'Chicago';
+  src: local('Chicago'), url('../assests/ChicagoFLF.ttf') format('truetype');
+}
+
+/*Tab button styling*/
+.Design .tab-buttons button{
+  font-family: 'Chicago';
+  font-size: 1rem;
+margin-top: 1rem;  
+background-size: 200% 200%;
+background-color: #cccccc;
+box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+transition: background-position 0.5s, box-shadow 0.5s;
+width: 160px;
+height: 70px;
+border: none;
+border: 2px solid #000000;
+border-bottom: none;
+cursor: pointer;
+}
+
+.Design .tab-buttons button:hover{
+  box-shadow: 1px 0px 0px rgba(0, 0, 0, 0.4);
+}
+
+
+/*tab BG styling*/
+.Design-Inspo{
+  font-family: 'Chicago';
+  background-color: #cccccc;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  border: 2px solid #000000;
+}
+
+.Design-Inspo h2{
+  background-color: #ffffff;
+}
+
+.Design-Inspo h3{
+  background-color: #eaeaea;
+}
+
+.Design-Inspo button{
+  font-family: 'Chicago', sans-serif;
+  background-color: white;
+  border-radius: 8px;
+  padding: 10px ;
+  margin: 10px;
+  box-shadow: 0 0 7px #838383;
+  cursor: pointer;
+}
+
+.Design-Inspo button:hover{
+  box-shadow: 0 0 7px #000000;
+}
+
+
+.Design-Reason{
+  font-family: 'Chicago';
+  background-color: #cccccc;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  border: 2px solid #000000;
+}
+
+.Design-Reason h2{
+  background-color: #b1b1b1;
+}
+
+.Design-Reason h3{
+  background-color: #c1c1c1;
+}
+
+/*img styling*/
+.Design-Colour img{
+  max-width: 50%;
+  height: auto;
+   
+
+}
+
+.Design-Wireframes img{
+    max-width: 50%;
+    height: auto;
+    
+}
+
+

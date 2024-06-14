@@ -1,0 +1,90 @@
+/*fonts*/
+@font-face {
+    font-family: 'Chicago';
+    src: local('Chicago'), url('../assests/ChicagoFLF.ttf') format('truetype');
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap'); 
+ 
+  @import url('https://fonts.googleapis.com/css2?family=Jacquard+12&family=Jacquard+24&display=swap');
+
+  @font-face {
+    font-family: 'Jacquard';
+    src: local('Jacquard'), url('../assests/Jacquard12-Regular.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Chakra';
+    src: local('Chakra'), url('../assests/ChakraPetch-Light.ttf') format('truetype');
+  }
+
+.Blog-Entry{
+background-image:url("../assests/sakuraPetals.gif");
+padding-top: 5px;
+padding-bottom: 20px;
+}
+
+
+.Writting{
+    background-color: white;
+    padding: 0  80px 0 80px ;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 12px;
+    border: 4px solid #f1aee1
+}
+.Writting h1{
+    font-family: 'Jacquard', sans-serif;
+    font-weight: normal;
+    font-size: 5rem;
+    text-align: center;
+}
+
+.Writting h1::first-letter{
+    text-decoration: underline;   
+    font-size: 7rem;
+}
+
+.Writting h2{
+    font-family: 'Chakra', sans-serif;
+    text-align: left;
+    text-decoration: underline dotted;
+}
+.Writting ul{
+    list-style-type: "✿"; 
+}
+
+.Writting p{
+    font-family: 'Chakra', sans-serif;
+    font-size: 1.1rem;
+    text-align: left;
+}
+
+
+.Writting img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 768px){
+    .Writting{
+        padding: 0  40px 0 40px ;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .Writting img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 80%;
+        height: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}

@@ -2,6 +2,24 @@
   text-align: center;
 }
 
+.pink-neon{
+  color: #FB48C4;
+  text-shadow: 0 0 10px #FB48C4, 0 0 20px #FB48C4, 0 0 30px #FB48C4;
+}
+.green-neon{
+  color: #35f945;
+  text-shadow: 0 0 10px #35f945, 0 0 20px #35f945, 0 0 30px #35f945;
+}
+.blue-neon{
+  color: #2ee7fb;
+  text-shadow: 0 0 10px #2ee7fb, 0 0 20px #2ee7fb, 0 0 30px #2ee7fb;
+}
+.orange-neon{
+  color: #fed637;
+  text-shadow: 0 0 10px #fed637, 0 0 20px #fed637, 0 0 30px #fed637;
+}
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

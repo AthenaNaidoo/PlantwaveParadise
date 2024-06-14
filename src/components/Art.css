@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'Chicago';
+    src: local('Chicago'), url('../assests/ChicagoFLF.ttf') format('truetype');
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap'); 
+ 
+  @import url('https://fonts.googleapis.com/css2?family=Jacquard+12&family=Jacquard+24&display=swap');
+
+  @font-face {
+    font-family: 'Jacquard';
+    src: local('Jacquard'), url('../assests/Jacquard12-Regular.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Chakra';
+    src: local('Chakra'), url('../assests/ChakraPetch-Light.ttf') format('truetype');
+  }
+
+.Art{
+    background: #ffffff;
+    background-image: linear-gradient(45deg, #efefef 25%, transparent 25%),
+                      linear-gradient(-45deg, #efefef 25%, transparent 25%),
+                      linear-gradient(45deg, transparent 75%, #efefef 75%),
+                      linear-gradient(-45deg, transparent 75%, #efefef 75%);
+    background-size: 20px 20px;
+    background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+    padding-bottom: 2rem;
+    background-attachment: fixed;
+}
+
+.Art .tab-buttons button{
+    font-family: 'Chicago';
+    margin-top: 10px;  
+    background-color: #ffffff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: background-position 0.5s, box-shadow 0.5s;
+    width: 160px;
+    height: 70px;
+    border: 2px solid #000000;
+    border-bottom: none;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.Art .tab-buttons button:hover{
+    box-shadow: 1px 0px 0px rgba(0, 0, 0, 0.4);
+  }
+/*Planning Tab styling*/
+.Plan-Inspo{
+    font-family: 'Chicago';
+    background-color: #ffffff;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    border: 2px solid #000000;
+  }
+
+.Plan-Inspo h2{
+    background-color: #7b7b7b;
+    color: #ffffff;
+}
+
+  .Plan-Inspo ul{
+    list-style: none;
+  }
+  
+  .Plan-Inspo ul li a{
+    color: #000000;
+    
+  }
+
+.Art-Idea h3{
+    background-color: #7b7b7b;
+}
+
+.Art-Idea p{
+    text-align: left;
+}
+
+.Art-Idea img{
+  margin: 5px 5px 5px 5px ;
+  width: 30px;
+  cursor: 'pointer';
+}
+
+
+/*Internet art page*/
+  .Internet-Art{
+    font-family: 'Chicago';
+    background-color: #ffffff;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    border: 2px solid #000000;
+  }
+
+  .Internet-Art h2{
+    background-color: #7b7b7b;
+  }
+
+  .Internet-Art h3{
+    background-color: #7b7b7b;
+  }
+
+  .moving-text {
+    display: inline-block;
+    white-space: nowrap;
+    animation: moveText 10s linear infinite;
+    
+  }
+  
+  @keyframes moveText {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+  }
+  .vertical-text {
+    display: inline-block;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    margin-right: 50px;
+  }
+
+  .pink-neon{
+    color: #FB48C4;
+    text-shadow: 0 0 10px #FB48C4, 0 0 20px #FB48C4, 0 0 30px #FB48C4;
+  }
+  
